@@ -1,7 +1,28 @@
 /* ========== index ==========*/
-/* header */
 .header-logo {width: 200px;}
+.search-btn {margin-left: 165px;}
 
+
+.border-top {border-top: 1px solid #000;}
+.border-bottom {border-bottom: 1px solid #000;}
+.border-bottom-none {border-bottom: none;}
+.border-none {border: none;}
+.borderside-none {border-left: none; border-right: none;}
+.text-select {font-size: .9rem; color: #9A9797;}
+.pl-searchbar {padding-left: 6.5rem;}
+.job-text {font-size: 1.2rem;}
+.job-hash {color: #9A9797;}
+.text-bold {font-weight: bold;}
+.search-select {margin: 3px 0; cursor: pointer;}
+
+.mt-rem {margin-top: 12rem;}
+
+.float-right {float: right;}
+.columngap-2 {column-gap: 2rem;}
+.dis-flex {display: flex;}
+.pos-absolute {position: absolute;}
+.height-800 {height: auto;}
+.text-black {color: #000;}
 
 
 
