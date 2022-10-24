@@ -10,12 +10,15 @@
 .borderside-none {border-left: none; border-right: none;}
 .text-select {font-size: .9rem; color: #9A9797;}
 .pl-searchbar {padding-left: 6.5rem;}
+.head-hash {color: #9A9797; font-size: 4px;}
 .job-text {font-size: 1.2rem;}
 .job-hash {color: #9A9797;}
 .text-bold {font-weight: bold;}
 .search-select {margin: 3px 0; cursor: pointer;}
 
 .mt-rem {margin-top: 12rem;}
+.head-card {color: #000;}
+.head-card:hover {color: #000; text-decoration: none;}
 
 .float-right {float: right;}
 .columngap-2 {column-gap: 2rem;}
