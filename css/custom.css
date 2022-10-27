@@ -42,6 +42,7 @@
 
 @media screen and (max-width: 576px) {
     .search-form {width: 280px;}
+    .custom-mt-1 {margin-top: 1rem;}
     .custom-mt-2 {margin-top: 2rem;}
     .custom-mt-3 {margin-top: 3rem;}
 }
