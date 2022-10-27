@@ -22,13 +22,13 @@
       <!-- logo -->
       <div class="header-top">
         <div class="header-logo mx-auto">
-          <img src="images/logo.png" alt="로고">
+          <a href="index.html"><img src="images/logo.png" alt="로고"></a>
         </div>
       </div>
       <!-- /logo -->
       <!-- nav -->
       <nav class="my-5 navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Contents</a>
+        <a class="navbar-brand" href="#">CONTENTS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -73,13 +73,13 @@
     <div class="container">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="first-tab" data-toggle="tab" data-target="#first-content" type="button" role="tab" aria-controls="home" aria-selected="true">Kitchen Hunting</button>
+          <button class="nav-link active" id="first-tab" data-toggle="tab" data-target="#first-content" type="button" role="tab" aria-controls="home" aria-selected="true">채용정보</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="second-tab" data-toggle="tab" data-target="#second-content" type="button" role="tab" aria-controls="profile" aria-selected="false">Job Search</button>
+          <button class="nav-link" id="second-tab" data-toggle="tab" data-target="#second-content" type="button" role="tab" aria-controls="profile" aria-selected="false">검색하기</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="third-tab" data-toggle="tab" data-target="#third-content" type="button" role="tab" aria-controls="contact" aria-selected="false">Resume</button>
+          <button class="nav-link" id="third-tab" data-toggle="tab" data-target="#third-content" type="button" role="tab" aria-controls="contact" aria-selected="false">이력서관리</button>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
@@ -149,14 +149,14 @@
                 </div>
               </div>
               <div class="col-sm-6 dis-flex mb-3 columngap-2">
-                <select name="1" id="d" class="border-none ml-3 px-2 cursor-pointer">
+                <select name="1" id="d" class="select-up border-none ml-3 px-2 my-auto cursor-pointer">
                   <option value="a2">등록일순</option>
                   <option value="a2">업데이트순</option>
                   <option value="a2">마감일순</option>
                   <option value="a2">추천순</option>
                 </select>
                 <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2 pl-searchbar" type="search" placeholder="업체명, 공고제목 등" aria-label="Search">
+                  <input class="search-form form-control mr-sm-2 pl-searchbar" type="search" placeholder="업체명, 공고제목 등" aria-label="Search">
                   <select name="1" id="d" class="border-none text-select px-1 pos-absolute ml-1 cursor-pointer">
                     <option value="a2">포함단어</option>
                     <option value="a2">제외단어</option>
@@ -249,7 +249,7 @@
         <!-- content2 -->          
         <div class="my-4 height-800 tab-pane fade" id="second-content" role="tabpanel" aria-labelledby="profile-tab">
           <div class="row">
-            <div class="col-3">
+            <div class="col-sm-2 col-4">
               <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <button class="nav-link active" id="v-pills-home-tab" data-toggle="pill" data-target="#v-pills-a" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">규모</button>
                 <button class="nav-link" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-b" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">종류</button>
@@ -260,7 +260,7 @@
                 <button class="nav-link" id="v-pills-settings-tab" data-toggle="pill" data-target="#v-pills-g" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">우대사항</button>
               </div>
             </div>
-            <div class="col-9">
+            <div class="col-sm-10 col-8">
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="mt-1 tab-pane fade show active" id="v-pills-a" role="tabpanel" aria-labelledby="v-pills-home-tab">
                   <select class="custom-select" size="11">
@@ -366,10 +366,9 @@
               </div>
             </div>
           </div>
-          <div class="row mt-5">
-            <div class="col-sm-10" id="clickBox"></div>
-            <div class="col-sm-2">
-              <button type="button" class="btn btn-outline-success">SEARCH</button>
+          <div class="shadow-sm p-3 mb-5 bg-white rounded"> 
+            <div class="row mt-2 mx-auto">
+              <button type="button" class="btn btn-outline-success mx-auto">SEARCH</button>
             </div>
           </div>
         </div>
@@ -378,24 +377,24 @@
         <div class="my-4 height-800 tab-pane fade" id="third-content" role="tabpanel" aria-labelledby="contact-tab">
           <div class="container">
             <div class="row shadow-sm p-3 mb-5 bg-white rounded">
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-6">
                   <img src="images/resume_img.png" class="img-fluid" alt="김종찬">
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-6">
                   <h4 class="text-left">김종찬</h4>
                   <p class="text-left">1987년 36세 남성</p>
                   <p class="text-left">010-1234-5678<span style="color: #A9A9A9"> &nbsp;(Phone)</span></p>
                   <p class="text-left"><span style="color: #A9A9A9">주소 : </span></p>
                   <p class="text-left">광주광역시 서구 농성동</p>
                 </div>
-                  <div class="col-sm-3">
+                  <div class="col-sm-3 col-6 custom-mt-3">
                     <p><span style="color: #A9A9A9">주요경력</span></p>
                     <p class="text-left">신라호텔제주 3년</p>
                   <p class="text-left">보나세라 4년</p>
                   <p class="text-left">워커힐호텔 4년</p>
                   <p class="text-left"><span style="color: #A9A9A9">총 11년</span></p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-6 custom-mt-3">
                   <p><span style="color: #A9A9A9">학력·학위</span></p>
                   <p class="text-left">프랑스 르 꼬르동 블루 <span style="color: #A9A9A9">&nbsp;&nbsp;졸업</span></p>
                   <p class="text-left">경희대학교 호텔조리과 <span style="color: #A9A9A9">&nbsp;&nbsp;졸업</span></p>
@@ -410,32 +409,32 @@
                 <p class="text-left">French<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;전공</span></p>
                 <p class="text-left">4.34 / 4.5<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;학점</span></p>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 custom-mt-2">
                 <p class="text-left">경희대학교 서울캠퍼스<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;졸업</span></p>
                 <p class="text-left">2006. 03 ~ 2011. 02</p>
                 <p class="text-left">호텔조리학과<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;전공</span></p>
                 <p class="text-left">3.84 / 4.5<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;학점</span></p>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 custom-mt-2">
                 <p class="text-left">한국국제조리고등학교<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;졸업</span></p>
                 <p class="text-left">2004. 03 ~ 2006. 02</p>
                 <p class="text-left">종합조리과<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;전공</span></p>
               </div>
             </div>
             <div class="row shadow-sm p-3 mb-5 bg-white rounded">
-              <div class="col-sm-4">
+              <div class="col-sm-4 custom-mt-2">
                 <p class="text-left">신라호텔<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;호텔</span></p>
                 <p class="text-left">2024. 12 ~ 2029. 01<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;퇴사</span></p>
                 <p class="text-left">Cold-part Appetizer<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;주요 직무</span></p>
                 <p class="text-left">Sous Chef<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;최종 직급</span></p>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 custom-mt-2">
                 <p class="text-left">보나세라<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;파인다이닝</span></p>
                 <p class="text-left">2021. 03 ~ 2024. 05<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;퇴사</span></p>
                 <p class="text-left">Cold-part Appetizer<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;주요 직무</span></p>
                 <p class="text-left">Chef de Partie<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;최종 직급</span></p>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 custom-mt-2">
                 <p class="text-left">워커힐호텔<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;호텔</span></p>
                 <p class="text-left">2016. 09 ~ 2020. 11<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;퇴사</span></p>
                 <p class="text-left">Main Dish<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;주요 직무</span></p>
@@ -443,31 +442,31 @@
               </div>
             </div>
             <div class="row shadow-sm p-3 mb-5 bg-white rounded">
-              <div class="col-sm-12 row">
-                <p class="text-left col-4">식품기사<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;산업인력공단</span></p>
-                <p class="text-left col-8">2015. 12<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;취득</span></p>
+              <div class="col-sm-12 row mb-2">
+                <p class="text-left col-sm-4 col-7">식품기사<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;산업인력공단</span></p>
+                <p class="text-left col-sm-8 col-5">2015. 12<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;취득</span></p>
               </div>
-              <div class="col-sm-12 row">
-                <p class="text-left col-4">위생사<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;보건복지부</span></p>
-                <p class="text-left col-8">2009. 09<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;취득</span></p>
+              <div class="col-sm-12 row mb-2">
+                <p class="text-left col-sm-4 col-7">위생사<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;보건복지부</span></p>
+                <p class="text-left col-sm-8 col-5">2009. 09<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;취득</span></p>
               </div>
-              <div class="col-sm-12 row">
-                <p class="text-left col-4">양식조리기능사<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;산업인력공단</span></p>
-                <p class="text-left col-8">2005. 10<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;취득</span></p>
+              <div class="col-sm-12 row mb-2">
+                <p class="text-left col-sm-4 col-7">양식조리기능사<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;산업인력공단</span></p>
+                <p class="text-left col-sm-8 col-5">2005. 10<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;취득</span></p>
               </div>
             </div>
             <div class="row shadow-sm p-3 mb-5 bg-white rounded">
-              <div class="col-sm-12 dis-flex row mb-2">
-                <p class="text-left col-2">TOEIC</p>
-                <p class="text-left col-10">950점<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;점수</span></p>
+              <div class="col-sm-12 row mb-2">
+                <p class="text-left col-sm-4 col-4">TOEIC</p>
+                <p class="text-left col-sm-8 col-8">950점<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;점수</span></p>
               </div>
-              <div class="col-sm-12 dis-flex row mb-2">
-                <p class="text-left col-2">프랑스어</p>
-                <p class="text-left col-10">능숙<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;등급</span></p>
+              <div class="col-sm-12 row mb-2">
+                <p class="text-left col-sm-4 col-4">프랑스어</p>
+                <p class="text-left col-sm-8 col-8">능숙<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;등급</span></p>
               </div>
-              <div class="col-sm-12 dis-flex row mb-2">
-                <p class="text-left col-2">영어</p>
-                <p class="text-left col-10">가능<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;등급</span></p>
+              <div class="col-sm-12 row mb-2">
+                <p class="text-left col-sm-4 col-4">영어</p>
+                <p class="text-left col-sm-8 col-8">가능<span style="color: #A9A9A9">&nbsp;&nbsp;&nbsp;등급</span></p>
               </div>
             </div>
             <div class="row shadow-sm p-3 mb-5 bg-white rounded">
@@ -493,8 +492,11 @@
               </div>
             </div>
           </div>
-          <!-- /content3 -->
+          <div class="row mt-2 mx-auto">
+            <button type="button" class="btn btn-outline-success mx-auto">수정하기</button>
+          </div>
         </div>
+        <!-- /content3 -->
       </div>
     </div>
   </section>

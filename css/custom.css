@@ -8,6 +8,9 @@
 .head-hash {color: #9A9797; font-size: .8rem;}
 .text-select {font-size: .9rem; color: #9A9797;}
 
+.select-up {height: 38px;}
+
+
 .border-top {border-top: 1px solid #000;}
 .border-bottom {border-bottom: 1px solid #000;}
 .border-bottom-none {border-bottom: none;}
@@ -33,7 +36,12 @@
 .pos-absolute {position: absolute;}
 
 
-
 /* ======== custom ==========*/
 .bg-main {background-color: #A2BB9E;}
 .form-control {width: 210px;}
+
+@media screen and (max-width: 576px) {
+    .search-form {width: 280px;}
+    .custom-mt-2 {margin-top: 2rem;}
+    .custom-mt-3 {margin-top: 3rem;}
+}
